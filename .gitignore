@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Test artifacts
+screenshots/
+videos/
+reports/
+allure-results/
+allure-report/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
