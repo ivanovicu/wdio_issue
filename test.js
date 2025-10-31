@@ -13,7 +13,7 @@ describe(`Element still displayed`, () => {
 		// Close modal
 		await browser.keys(`Escape`);
 
-		// Wdio Still sees this element as displayed
+		// Element as displayed ??
 		await $(`.main-module_ms-main-bot__QKkRf`).waitForNotDisplayed();
 
         // Not exist works as expected
