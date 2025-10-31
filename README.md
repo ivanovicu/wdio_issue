@@ -12,7 +12,7 @@ cd wdio_issue
 pnpm install
 
 # Run test
-pnpm test
+for i in {1..10}; do pnpm test; done
 ```
 
 ## Issue
