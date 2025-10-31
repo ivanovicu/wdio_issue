@@ -13,7 +13,7 @@ describe(`Element still displayed`, () => {
 		// Close modal
 		await browser.keys(`Escape`);
 
-		// Element as displayed ??
+		// Element displayed ??
 		await $(`.main-module_ms-main-bot__QKkRf`).waitForNotDisplayed();
 
         // Not exist works as expected
